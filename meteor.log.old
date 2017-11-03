@@ -1,28 +1,0 @@
-For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-[[[[[ ~/duoduoMeteor/duoduo ]]]]]
-
-=> Started proxy.
-=> Started your app.
-
-=> App running at: http://localhost:3000/
-=> Meteor 1.6 is available. Update this project with 'meteor update'.
-For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-=> Client modified -- refreshingFor compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-=> Client modified -- refreshing (x2)For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-=> Client modified -- refreshing (x3)For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-=> Client modified -- refreshing (x4)
