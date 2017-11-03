@@ -1,9 +1,0 @@
-#!/bin/sh
-echo $@
-for s in cloud-system-ui cloud-marketing-ui cloud-support-ui cloud-operations-ui cloud-planning-ui cloud-app-ui ccng-ui cmdctr-fa cmdctr-ba cmdctr-system cmdctr-im meteor-lib
-do
-     echo $s
-     git clone http://git/repos/sxa/$s
-     #cd $s
-     #git checkout $@
-done
