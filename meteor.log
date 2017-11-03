@@ -9,21 +9,6 @@ use a semi-colon (;) to separate paths.
 => Started your app.
 
 => App running at: http://localhost:3000/
-For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-=> Client modified -- refreshing
-=> Server modified -- restarting...For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-                                   => Meteor server restartedFor compatibility, the PACKAGE_DIRS environment variable is deprecated and will
-be removed in a future Meteor release.
-Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
-use a semi-colon (;) to separate paths.
-
-=> Client modified -- refreshing
 => Server modified -- restarting...For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
 be removed in a future Meteor release.
 Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
@@ -38,4 +23,21 @@ be removed in a future Meteor release.
 Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
 use a semi-colon (;) to separate paths.
 
-=> Client modified -- refreshing
+=> Errors prevented startup:
+   
+   While processing files with templating-compiler (for target web.browser):
+   client/templates/application/not_found.html:1: Can't set DOCTYPE here.
+   (Meteor sets <!DOCTYPE html> for you)
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.
+For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
+be removed in a future Meteor release.
+Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
+use a semi-colon (;) to separate paths.
+=> Meteor server restarted
+=> Server modified -- restarting...For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
+be removed in a future Meteor release.
+Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
+use a semi-colon (;) to separate paths.
+                                   => Meteor server restarted
