@@ -3,3 +3,4 @@ meteor.sh
 meteor.log*
 mgit*
 meteor_pid
+.idea
