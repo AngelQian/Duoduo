@@ -1,9 +1,0 @@
-#!/bin/sh
-echo $@
-for s in cloud-system-ui cloud-marketing-ui cloud-app-ui cloud-support-ui cloud-operations-ui cloud-planning-ui ccng-ui cmdctr-fa cmdctr-ba cmdctr-system cmdctr-im meteor-lib
-do
-     echo $s
-     cd $s
-     git $@
-     cd ..
-done
