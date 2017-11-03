@@ -1,0 +1,713 @@
+[[[[[ ~/CloudRelease/cloud-app-ui ]]]]]
+
+=> Started proxy.
+For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
+be removed in a future Meteor release.
+Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
+use a semi-colon (;) to separate paths.
+=> Meteor 1.6 is available. Update this project with 'meteor update'.
+[34mI20171102-15:44:35.165(-7)? [39mstatsd server: 127.0.0.1:8125
+[34mW20171102-15:44:33.083(-7) (WARN) [39m[35mWinston Logger > /home/aqian/CloudRelease/cloud-app-ui/.meteor/local/build/programs/server/logs[39m
+[34mI20171102-15:44:35.307(-7)? [39m[30minfo[39m: system-util-config-server: reading configuration file/home/aqian/CloudRelease/cloud-config.json
+[34mI20171102-15:44:35.307(-7)? [39m[30minfo[39m: jbossSecureUrl is : https://preview.calix.com:8443
+[34mI20171102-15:44:35.307(-7)? [39m[30minfo[39m: CONFIGURATION DATA: {"jbossUrl":"https://preview.calix.com:8443","sxafa.ApiUrl":"http://preview.calix.com:50050","sxafa.systemControllerUrl":"http://localhost:50050","sxa.dropdownlinks":[{"name":"subscriptionManagement","permission":"orgadmin","url":"https://aem-stage.calix.com/my-calix/mycompass.html","target":"_blank"}],"sxa.navigationLinks":[{"name":"netValet","permission":{"role":"Branding","entitlement":"SXA-CC"},"url":"/netvalet","image":"/images/app/marketing-logo-small.png"}],"marketingApiUrl":"http://vmlnx-cloud-dev:8080","jbossUrl23":"http://vmlnx-aqian:8080","sxafa.ApiUrl23":"http://vmlnx-aqian:50050","marketingApiUrl23":"http://vmlnx-aqian:8181","jbossUrl456":"http://172.23.46.48:8080","marketingApiUrl456":"http://10.200.1.211:8080","exportPath":"/marketing-cloud/data/export-files/","userActionLogConfig":{"enabled":true},"samlCertificateLocatio123123n":"SAMLIdP-0sp70000000TN48.xml","ui-portal.calixStoreAuthenticationLogoutUrl":"http://portal.calix.com/portal/site/resourcecenter/template.LOGOUT/action.process","ui-portal.calixStoreAuthenticationRedirectUrl":"http://portal.calix.com/portal/site/resourcecenter/template.LOGIN","ui-portal.capMissingRedirectUrl":"http://www.calix.com/software/compass/","ui-portal.calix.cloud.timeout.minutes":240,"ui-portal.enforceCAP":true,"ui-portal.usePortalAuthenticationMode":false,"ui-portal.useSalesforceIdp":true,"ui-portal.salesforceLoginUrl":"https://sfuat-calix.cs30.force.com/idp/login","ui-portal.salesforceLogoutUrl":"https://sfuat-calix.cs30.force.com/secur/logout.jsp","ui-portal.salesforceAppId":"0spn000000000Gs","entitlement-expiry-grace-days":4,"entitlement-warning-grace-days":5,"calixCloudURLs":{"Canada":"https://cloud-demo.calix.com/","United States":"http://172.23.46.48"},"calixCloudLocation":"United States","calixCloudLocation123":"Canada","googleAnalyticsConfig":{"enabled":true,"login":true,"logout":true,"widgetMaximized":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true}}
+[34mD20171102-15:44:33.656(-7) (DEBUG) [39m[32m ===>>  SXACC Metafiles directory [ /home/aqian/CloudRelease/ccng-ui/metafiles ][39m
+[34mD20171102-15:44:33.660(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/5168N.json ][39m
+[34mD20171102-15:44:33.666(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/5268AC.json ][39m
+[34mD20171102-15:44:33.668(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/7xxGE.json ][39m
+[34mD20171102-15:44:33.670(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/801F.json ][39m
+[34mD20171102-15:44:33.672(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/812G.json ][39m
+[34mD20171102-15:44:33.674(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/813G.json ][39m
+[34mD20171102-15:44:33.676(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/818G.json ][39m
+[34mD20171102-15:44:33.678(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/836.json ][39m
+[34mD20171102-15:44:33.679(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844E.json ][39m
+[34mD20171102-15:44:33.681(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844F.json ][39m
+[34mD20171102-15:44:33.683(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844G.json ][39m
+[34mD20171102-15:44:33.684(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844GE.json ][39m
+[34mD20171102-15:44:33.687(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Actiontec_V2000H.json ][39m
+[34mD20171102-15:44:33.690(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Arris.json ][39m
+[34mD20171102-15:44:33.691(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Arris_TG1672G.json ][39m
+[34mD20171102-15:44:33.693(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/BEC_8920AC.json ][39m
+[34mD20171102-15:44:33.695(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/BEC_8920NE_BEC_7800TN_R2.json ][39m
+[34mD20171102-15:44:33.698(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5361T.json ][39m
+[34mD20171102-15:44:33.699(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5374.json ][39m
+[34mD20171102-15:44:33.700(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5621T.json ][39m
+[34mD20171102-15:44:33.702(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_311xu_AR_5381u.json ][39m
+[34mD20171102-15:44:33.704(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_3120.json ][39m
+[34mD20171102-15:44:33.705(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_5630u.json ][39m
+[34mD20171102-15:44:33.708(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_5631.json ][39m
+[34mD20171102-15:44:33.709(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_VR-3030.json ][39m
+[34mD20171102-15:44:33.711(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_VR-3060.json ][39m
+[34mD20171102-15:44:33.712(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/DG1670A.json ][39m
+[34mD20171102-15:44:33.714(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/DG2470A.json ][39m
+[34mD20171102-15:44:33.716(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/NetGear6300.json ][39m
+[34mD20171102-15:44:33.719(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR.json ][39m
+[34mD20171102-15:44:33.720(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR300N.json ][39m
+[34mD20171102-15:44:33.723(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR360N.json ][39m
+[34mD20171102-15:44:33.725(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR505N.json ][39m
+[34mD20171102-15:44:33.726(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T071.json ][39m
+[34mD20171102-15:44:33.727(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T072.json ][39m
+[34mD20171102-15:44:33.728(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T073.json ][39m
+[34mD20171102-15:44:33.731(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/VisionNet_M625N_M505N.json ][39m
+[34mD20171102-15:44:33.732(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6519-96318REF-ogero.json ][39m
+[34mD20171102-15:44:33.734(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6519.json ][39m
+[34mD20171102-15:44:33.736(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6729.json ][39m
+[34mD20171102-15:44:33.737(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_963168_OT132G_C.json ][39m
+[34mD20171102-15:44:33.739(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/default.json ][39m
+[34mD20171102-15:44:33.741(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/default_tr_181.json ][39m
+[34mD20171102-15:44:33.744(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_EMG2926-Q10A.json ][39m
+[34mD20171102-15:44:33.747(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_P-660HN-51.json ][39m
+[34mD20171102-15:44:33.748(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg.json ][39m
+[34mD20171102-15:44:33.750(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_3925_b10a.json ][39m
+[34mD20171102-15:44:33.751(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_4325_b10a.json ][39m
+[34mD20171102-15:44:33.753(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_4825_b10a.json ][39m
+[34mD20171102-15:44:33.754(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vsg.json ][39m
+[34mD20171102-15:44:33.756(-7) (DEBUG) [39m[32m ===>>  SXACC Metafiles loaded.  cnt [ 50 ][39m
+[34mD20171102-15:44:33.757(-7) (DEBUG) [39m[32m ===>>  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[34mD20171102-15:44:33.757(-7) (DEBUG) [39m[32m ===>>  Meta file directory [ /home/aqian/CloudRelease/ccng-ui/metafiles ] is being watched.[39m
+[34mD20171102-15:44:33.757(-7) (DEBUG) [39m[32m ===>>  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[34mW20171102-15:44:35.348(-7)? (STDERR) [39m[35m[Thu Nov  2 15:44:32 2017] com.ibm.diagnostics.healthcenter.loader INFO: Node Application Metrics 1.2.0.201612012154 (Agent Core 3.1.0)[39m
+[34mW20171102-15:44:35.348(-7)? (STDERR) [39m[35m[Thu Nov  2 15:44:32 2017] com.ibm.diagnostics.healthcenter.mqtt INFO: Connecting to broker localhost:1883[39m
+[34mI20171102-15:44:35.362(-7)? [39m{ '0': 'cloud-config-server: using configuration file/home/aqian/CloudRelease/cloud-config.json' }
+[34mI20171102-15:44:35.363(-7)? [39m{ '0': 'Configuration: ',
+[34mI20171102-15:44:35.363(-7)? [39m  '1': 
+[34mI20171102-15:44:35.364(-7)? [39m   { jbossUrl: 'https://preview.calix.com:8443',
+[34mI20171102-15:44:35.364(-7)? [39m     marketingApiUrl: 'http://vmlnx-cloud-dev:8080',
+[34mI20171102-15:44:35.365(-7)? [39m     exportPath: '/marketing-cloud/data/export-files/',
+[34mI20171102-15:44:35.365(-7)? [39m     'sxafa.ApiUrl': 'http://preview.calix.com:50050',
+[34mI20171102-15:44:35.365(-7)? [39m     jbossUrl23: 'http://vmlnx-aqian:8080',
+[34mI20171102-15:44:35.365(-7)? [39m     'sxafa.ApiUrl23': 'http://vmlnx-aqian:50050',
+[34mI20171102-15:44:35.366(-7)? [39m     marketingApiUrl23: 'http://vmlnx-aqian:8181',
+[34mI20171102-15:44:35.366(-7)? [39m     jbossUrl456: 'http://172.23.46.48:8080',
+[34mI20171102-15:44:35.366(-7)? [39m     marketingApiUrl456: 'http://10.200.1.211:8080',
+[34mI20171102-15:44:35.367(-7)? [39m     userActionLogConfig: { enabled: true },
+[34mI20171102-15:44:35.367(-7)? [39m     samlCertificateLocatio123123n: 'SAMLIdP-0sp70000000TN48.xml',
+[34mI20171102-15:44:35.368(-7)? [39m     'ui-portal.calixStoreAuthenticationLogoutUrl': 'http://portal.calix.com/portal/site/resourcecenter/template.LOGOUT/action.process',
+[34mI20171102-15:44:35.368(-7)? [39m     'ui-portal.calixStoreAuthenticationRedirectUrl': 'http://portal.calix.com/portal/site/resourcecenter/template.LOGIN',
+[34mI20171102-15:44:35.368(-7)? [39m     'ui-portal.capMissingRedirectUrl': 'http://www.calix.com/software/compass/',
+[34mI20171102-15:44:35.369(-7)? [39m     'ui-portal.calix.cloud.timeout.minutes': 240,
+[34mI20171102-15:44:35.369(-7)? [39m     'ui-portal.enforceCAP': true,
+[34mI20171102-15:44:35.369(-7)? [39m     'ui-portal.usePortalAuthenticationMode': false,
+[34mI20171102-15:44:35.370(-7)? [39m     'ui-portal.useSalesforceIdp': true,
+[34mI20171102-15:44:35.371(-7)? [39m     'ui-portal.salesforceLoginUrl': 'https://sfuat-calix.cs30.force.com/idp/login',
+[34mI20171102-15:44:35.371(-7)? [39m     'ui-portal.salesforceLogoutUrl': 'https://sfuat-calix.cs30.force.com/secur/logout.jsp',
+[34mI20171102-15:44:35.371(-7)? [39m     'ui-portal.salesforceAppId': '0spn000000000Gs',
+[34mI20171102-15:44:35.372(-7)? [39m     'entitlement-expiry-grace-days': 4,
+[34mI20171102-15:44:35.372(-7)? [39m     'entitlement-warning-grace-days': 5,
+[34mI20171102-15:44:35.372(-7)? [39m     calixCloudURLs: 
+[34mI20171102-15:44:35.373(-7)? [39m      { Canada: 'https://cloud-demo.calix.com/',
+[34mI20171102-15:44:35.373(-7)? [39m        'United States': 'http://172.23.46.48' },
+[34mI20171102-15:44:35.373(-7)? [39m     calixCloudLocation: 'United States',
+[34mI20171102-15:44:35.373(-7)? [39m     calixCloudLocation123: 'Canada',
+[34mI20171102-15:44:35.374(-7)? [39m     googleAnalyticsConfig: 
+[34mI20171102-15:44:35.374(-7)? [39m      { enabled: true,
+[34mI20171102-15:44:35.374(-7)? [39m        login: true,
+[34mI20171102-15:44:35.375(-7)? [39m        logout: true,
+[34mI20171102-15:44:35.375(-7)? [39m        widgetMaximized: true,
+[34mI20171102-15:44:35.375(-7)? [39m        pageHit: true,
+[34mI20171102-15:44:35.376(-7)? [39m        dashBoardHit: true,
+[34mI20171102-15:44:35.376(-7)? [39m        widgetLoaded: true } } }
+[34mI20171102-15:44:35.376(-7)? [39m{ '0': 'userActionLogConfig.logPath is not configured. Using dir /var/tmp/ to store userActionLogs' }
+[34mI20171102-15:44:35.376(-7)? [39m{ '0': 'userActionConfigLogSettings: read settings {"enabled":true}' }
+[34mI20171102-15:44:35.377(-7)? [39m{ '0': 'userActionConfigLogSettings: Effective settings {"enabled":true,"login":true,"logout":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true,"widgetMaximized":true,"widgetMinimized":true,"filterSet":true,"regionSet":true,"dateSet":true,"clickRunReport":true,"dataSet":true}' }
+[34mI20171102-15:44:35.377(-7)? [39m{ '0': 'initGoogleAnalyticsSettings: read settings {"enabled":true,"login":true,"logout":true,"widgetMaximized":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true}' }
+[34mI20171102-15:44:35.378(-7)? [39m{ '0': 'initGoogleAnalyticsSettings: Effective settings {"enabled":true,"login":true,"logout":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true,"widgetMaximized":true,"widgetMinimized":true,"filterSet":true,"regionSet":true,"dateSet":true,"dataSet":true}' }
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+[34mI20171102-15:44:35.735(-7)? [39m[30minfo[39m: Got latest offset metadata: {"cmdctr-real-time":{"0":[597280153]}}
+[34mI20171102-15:44:35.737(-7)? [39m[30minfo[39m: Consuming kafka messages in: {"topic":"cmdctr-real-time","offset":597280153,"partition":0,"maxBytes":2097152,"metadata":"m"}
+[34mI20171102-15:44:35.792(-7)? [39m[30minfo[39m: Got latest offset metadata: {"cmdctr-real-time":{"1":[1481386]}}
+[34mI20171102-15:44:35.793(-7)? [39m[30minfo[39m: Consuming kafka messages in: {"topic":"cmdctr-real-time","offset":1481386,"partition":1,"maxBytes":2097152,"metadata":"m"}
+=> Server modified -- restarting...For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
+be removed in a future Meteor release.
+Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
+use a semi-colon (;) to separate paths.
+                                   [34mI20171102-15:45:44.765(-7)? [39mstatsd server: 127.0.0.1:8125
+[34mW20171102-15:45:44.785(-7)? (STDERR) [39m[35m[Thu Nov  2 15:45:44 2017] com.ibm.diagnostics.healthcenter.loader INFO: Node Application Metrics 1.2.0.201612012154 (Agent Core 3.1.0)[39m
+[34mW20171102-15:45:44.960(-7)? (STDERR) [39m[35m[Thu Nov  2 15:45:44 2017] com.ibm.diagnostics.healthcenter.mqtt INFO: Connecting to broker localhost:1883[39m
+[34mW20171102-15:45:45.563(-7) (WARN) [39m[35mWinston Logger > /home/aqian/CloudRelease/cloud-app-ui/.meteor/local/build/programs/server/logs[39m
+[34mI20171102-15:45:46.135(-7)? [39m[30minfo[39m: system-util-config-server: reading configuration file/home/aqian/CloudRelease/cloud-config.json
+[34mI20171102-15:45:46.138(-7)? [39m[30minfo[39m: jbossSecureUrl is : https://preview.calix.com:8443
+[34mI20171102-15:45:46.138(-7)? [39m[30minfo[39m: CONFIGURATION DATA: {"jbossUrl":"https://preview.calix.com:8443","sxafa.ApiUrl":"http://preview.calix.com:50050","sxafa.systemControllerUrl":"http://localhost:50050","sxa.dropdownlinks":[{"name":"subscriptionManagement","permission":"orgadmin","url":"https://aem-stage.calix.com/my-calix/mycompass.html","target":"_blank"}],"sxa.navigationLinks":[{"name":"netValet","permission":{"role":"Branding","entitlement":"SXA-CC"},"url":"/netvalet","image":"/images/app/marketing-logo-small.png"}],"marketingApiUrl":"http://vmlnx-cloud-dev:8080","jbossUrl23":"http://vmlnx-aqian:8080","sxafa.ApiUrl23":"http://vmlnx-aqian:50050","marketingApiUrl23":"http://vmlnx-aqian:8181","jbossUrl456":"http://172.23.46.48:8080","marketingApiUrl456":"http://10.200.1.211:8080","exportPath":"/marketing-cloud/data/export-files/","userActionLogConfig":{"enabled":true},"samlCertificateLocatio123123n":"SAMLIdP-0sp70000000TN48.xml","ui-portal.calixStoreAuthenticationLogoutUrl":"http://portal.calix.com/portal/site/resourcecenter/template.LOGOUT/action.process","ui-portal.calixStoreAuthenticationRedirectUrl":"http://portal.calix.com/portal/site/resourcecenter/template.LOGIN","ui-portal.capMissingRedirectUrl":"http://www.calix.com/software/compass/","ui-portal.calix.cloud.timeout.minutes":240,"ui-portal.enforceCAP":true,"ui-portal.usePortalAuthenticationMode":false,"ui-portal.useSalesforceIdp":true,"ui-portal.salesforceLoginUrl":"https://sfuat-calix.cs30.force.com/idp/login","ui-portal.salesforceLogoutUrl":"https://sfuat-calix.cs30.force.com/secur/logout.jsp","ui-portal.salesforceAppId":"0spn000000000Gs","entitlement-expiry-grace-days":4,"entitlement-warning-grace-days":5,"calixCloudURLs":{"Canada":"https://cloud-demo.calix.com/","United States":"http://172.23.46.48"},"calixCloudLocation":"United States","calixCloudLocation123":"Canada","googleAnalyticsConfig":{"enabled":true,"login":true,"logout":true,"widgetMaximized":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true}}
+[34mD20171102-15:45:46.156(-7) (DEBUG) [39m[32m ===>>  SXACC Metafiles directory [ /home/aqian/CloudRelease/ccng-ui/metafiles ][39m
+[34mD20171102-15:45:46.159(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/5168N.json ][39m
+[34mD20171102-15:45:46.161(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/5268AC.json ][39m
+[34mD20171102-15:45:46.163(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/7xxGE.json ][39m
+[34mD20171102-15:45:46.166(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/801F.json ][39m
+[34mD20171102-15:45:46.168(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/812G.json ][39m
+[34mD20171102-15:45:46.171(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/813G.json ][39m
+[34mD20171102-15:45:46.173(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/818G.json ][39m
+[34mD20171102-15:45:46.176(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/836.json ][39m
+[34mD20171102-15:45:46.178(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844E.json ][39m
+[34mD20171102-15:45:46.180(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844F.json ][39m
+[34mD20171102-15:45:46.183(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844G.json ][39m
+[34mD20171102-15:45:46.189(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/844GE.json ][39m
+[34mD20171102-15:45:46.193(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Actiontec_V2000H.json ][39m
+[34mD20171102-15:45:46.195(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Arris.json ][39m
+[34mD20171102-15:45:46.199(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Arris_TG1672G.json ][39m
+[34mD20171102-15:45:46.201(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/BEC_8920AC.json ][39m
+[34mD20171102-15:45:46.203(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/BEC_8920NE_BEC_7800TN_R2.json ][39m
+[34mD20171102-15:45:46.206(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5361T.json ][39m
+[34mD20171102-15:45:46.207(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5374.json ][39m
+[34mD20171102-15:45:46.208(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_CT_5621T.json ][39m
+[34mD20171102-15:45:46.210(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_311xu_AR_5381u.json ][39m
+[34mD20171102-15:45:46.212(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_3120.json ][39m
+[34mD20171102-15:45:46.213(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_5630u.json ][39m
+[34mD20171102-15:45:46.215(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_NexusLink_5631.json ][39m
+[34mD20171102-15:45:46.216(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_VR-3030.json ][39m
+[34mD20171102-15:45:46.219(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Comtrend_VR-3060.json ][39m
+[34mD20171102-15:45:46.221(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/DG1670A.json ][39m
+[34mD20171102-15:45:46.223(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/DG2470A.json ][39m
+[34mD20171102-15:45:46.224(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/NetGear6300.json ][39m
+[34mD20171102-15:45:46.226(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR.json ][39m
+[34mD20171102-15:45:46.228(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR300N.json ][39m
+[34mD20171102-15:45:46.231(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR360N.json ][39m
+[34mD20171102-15:45:46.233(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/SR505N.json ][39m
+[34mD20171102-15:45:46.234(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T071.json ][39m
+[34mD20171102-15:45:46.236(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T072.json ][39m
+[34mD20171102-15:45:46.237(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/T073.json ][39m
+[34mD20171102-15:45:46.240(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/VisionNet_M625N_M505N.json ][39m
+[34mD20171102-15:45:46.241(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6519-96318REF-ogero.json ][39m
+[34mD20171102-15:45:46.243(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6519.json ][39m
+[34mD20171102-15:45:46.245(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_6729.json ][39m
+[34mD20171102-15:45:46.247(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/Zhone_963168_OT132G_C.json ][39m
+[34mD20171102-15:45:46.248(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/default.json ][39m
+[34mD20171102-15:45:46.251(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/default_tr_181.json ][39m
+[34mD20171102-15:45:46.253(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_EMG2926-Q10A.json ][39m
+[34mD20171102-15:45:46.255(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_P-660HN-51.json ][39m
+[34mD20171102-15:45:46.256(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg.json ][39m
+[34mD20171102-15:45:46.258(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_3925_b10a.json ][39m
+[34mD20171102-15:45:46.259(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_4325_b10a.json ][39m
+[34mD20171102-15:45:46.261(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vmg_4825_b10a.json ][39m
+[34mD20171102-15:45:46.263(-7) (DEBUG) [39m[32m ===>>  Loading [ /home/aqian/CloudRelease/ccng-ui/metafiles/zyxel_vsg.json ][39m
+[34mD20171102-15:45:46.265(-7) (DEBUG) [39m[32m ===>>  SXACC Metafiles loaded.  cnt [ 50 ][39m
+[34mD20171102-15:45:46.265(-7) (DEBUG) [39m[32m ===>>  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[34mD20171102-15:45:46.266(-7) (DEBUG) [39m[32m ===>>  Meta file directory [ /home/aqian/CloudRelease/ccng-ui/metafiles ] is being watched.[39m
+[34mD20171102-15:45:46.266(-7) (DEBUG) [39m[32m ===>>  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<[39m
+[34mI20171102-15:45:47.416(-7)? [39m{ '0': 'cloud-config-server: using configuration file/home/aqian/CloudRelease/cloud-config.json' }
+[34mI20171102-15:45:47.418(-7)? [39m{ '0': 'Configuration: ',
+[34mI20171102-15:45:47.418(-7)? [39m  '1': 
+[34mI20171102-15:45:47.419(-7)? [39m   { jbossUrl: 'https://preview.calix.com:8443',
+[34mI20171102-15:45:47.419(-7)? [39m     marketingApiUrl: 'http://vmlnx-cloud-dev:8080',
+[34mI20171102-15:45:47.419(-7)? [39m     exportPath: '/marketing-cloud/data/export-files/',
+[34mI20171102-15:45:47.420(-7)? [39m     'sxafa.ApiUrl': 'http://preview.calix.com:50050',
+[34mI20171102-15:45:47.420(-7)? [39m     jbossUrl23: 'http://vmlnx-aqian:8080',
+[34mI20171102-15:45:47.420(-7)? [39m     'sxafa.ApiUrl23': 'http://vmlnx-aqian:50050',
+[34mI20171102-15:45:47.421(-7)? [39m     marketingApiUrl23: 'http://vmlnx-aqian:8181',
+[34mI20171102-15:45:47.421(-7)? [39m     jbossUrl456: 'http://172.23.46.48:8080',
+[34mI20171102-15:45:47.421(-7)? [39m     marketingApiUrl456: 'http://10.200.1.211:8080',
+[34mI20171102-15:45:47.421(-7)? [39m     userActionLogConfig: { enabled: true },
+[34mI20171102-15:45:47.422(-7)? [39m     samlCertificateLocatio123123n: 'SAMLIdP-0sp70000000TN48.xml',
+[34mI20171102-15:45:47.422(-7)? [39m     'ui-portal.calixStoreAuthenticationLogoutUrl': 'http://portal.calix.com/portal/site/resourcecenter/template.LOGOUT/action.process',
+[34mI20171102-15:45:47.422(-7)? [39m     'ui-portal.calixStoreAuthenticationRedirectUrl': 'http://portal.calix.com/portal/site/resourcecenter/template.LOGIN',
+[34mI20171102-15:45:47.423(-7)? [39m     'ui-portal.capMissingRedirectUrl': 'http://www.calix.com/software/compass/',
+[34mI20171102-15:45:47.423(-7)? [39m     'ui-portal.calix.cloud.timeout.minutes': 240,
+[34mI20171102-15:45:47.423(-7)? [39m     'ui-portal.enforceCAP': true,
+[34mI20171102-15:45:47.423(-7)? [39m     'ui-portal.usePortalAuthenticationMode': false,
+[34mI20171102-15:45:47.424(-7)? [39m     'ui-portal.useSalesforceIdp': true,
+[34mI20171102-15:45:47.430(-7)? [39m     'ui-portal.salesforceLoginUrl': 'https://sfuat-calix.cs30.force.com/idp/login',
+[34mI20171102-15:45:47.430(-7)? [39m     'ui-portal.salesforceLogoutUrl': 'https://sfuat-calix.cs30.force.com/secur/logout.jsp',
+[34mI20171102-15:45:47.431(-7)? [39m     'ui-portal.salesforceAppId': '0spn000000000Gs',
+[34mI20171102-15:45:47.431(-7)? [39m     'entitlement-expiry-grace-days': 4,
+[34mI20171102-15:45:47.431(-7)? [39m     'entitlement-warning-grace-days': 5,
+[34mI20171102-15:45:47.431(-7)? [39m     calixCloudURLs: 
+[34mI20171102-15:45:47.432(-7)? [39m      { Canada: 'https://cloud-demo.calix.com/',
+[34mI20171102-15:45:47.432(-7)? [39m        'United States': 'http://172.23.46.48' },
+[34mI20171102-15:45:47.432(-7)? [39m     calixCloudLocation: 'United States',
+[34mI20171102-15:45:47.433(-7)? [39m     calixCloudLocation123: 'Canada',
+[34mI20171102-15:45:47.433(-7)? [39m     googleAnalyticsConfig: 
+[34mI20171102-15:45:47.433(-7)? [39m      { enabled: true,
+[34mI20171102-15:45:47.433(-7)? [39m        login: true,
+[34mI20171102-15:45:47.434(-7)? [39m        logout: true,
+[34mI20171102-15:45:47.434(-7)? [39m        widgetMaximized: true,
+[34mI20171102-15:45:47.434(-7)? [39m        pageHit: true,
+[34mI20171102-15:45:47.435(-7)? [39m        dashBoardHit: true,
+[34mI20171102-15:45:47.435(-7)? [39m        widgetLoaded: true } } }
+[34mI20171102-15:45:47.446(-7)? [39m{ '0': 'userActionLogConfig.logPath is not configured. Using dir /var/tmp/ to store userActionLogs' }
+[34mI20171102-15:45:47.446(-7)? [39m{ '0': 'userActionConfigLogSettings: read settings {"enabled":true}' }
+[34mI20171102-15:45:47.447(-7)? [39m{ '0': 'userActionConfigLogSettings: Effective settings {"enabled":true,"login":true,"logout":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true,"widgetMaximized":true,"widgetMinimized":true,"filterSet":true,"regionSet":true,"dateSet":true,"clickRunReport":true,"dataSet":true}' }
+[34mI20171102-15:45:47.447(-7)? [39m{ '0': 'initGoogleAnalyticsSettings: read settings {"enabled":true,"login":true,"logout":true,"widgetMaximized":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true}' }
+[34mI20171102-15:45:47.447(-7)? [39m{ '0': 'initGoogleAnalyticsSettings: Effective settings {"enabled":true,"login":true,"logout":true,"pageHit":true,"dashBoardHit":true,"widgetLoaded":true,"widgetMaximized":true,"widgetMinimized":true,"filterSet":true,"regionSet":true,"dateSet":true,"dataSet":true}' }
+=> Meteor server restarted
+[34mI20171102-15:45:47.862(-7)? [39m[30minfo[39m: Got latest offset metadata: {"cmdctr-real-time":{"0":[597280153]}}
+[34mI20171102-15:45:47.863(-7)? [39m[30minfo[39m: Consuming kafka messages in: {"topic":"cmdctr-real-time","offset":597280153,"partition":0,"maxBytes":2097152,"metadata":"m"}
+[34mI20171102-15:45:47.900(-7)? [39m[30minfo[39m: Got latest offset metadata: {"cmdctr-real-time":{"1":[1481386]}}
+[34mI20171102-15:45:47.900(-7)? [39m[30minfo[39m: Consuming kafka messages in: {"topic":"cmdctr-real-time","offset":1481386,"partition":1,"maxBytes":2097152,"metadata":"m"}
+[34mI20171102-15:50:21.858(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/query' }
+[34mI20171102-15:50:22.162(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/organizations/12557' }
+[34mI20171102-15:50:22.441(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/entitlements?org-id=12557' }
+[34mI20171102-15:50:22.766(-7)? [39m{ '0': '---------verifyCommandCenterUser ------------verify success ------' }
+[34mI20171102-15:50:22.777(-7)? [39m{ '0': '-----hasValidEntitlement-----', '1': 118 }
+[34mI20171102-15:50:22.778(-7)? [39m{ '0': '-----hasValidPermission-----', '1': 116, '2': 3 }
+[34mI20171102-15:50:22.778(-7)? [39m{ '0': '---- to login ... ------' }
+[34mI20171102-15:50:22.803(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:50:22.803(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:50:22.804(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:50:23.079(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"18cf730dbb710965c69881be5145974a3ef795ca2138ea8f8eb8a2003a1737415a551bb729485ad27c1b594f88114bf7e4f17bca0453945b3122a65204a125dd79adf22bf3d7957f4fa87d5f0f0d119db74d576b603fdef6e278f9483c9884f7f927b5beb63cf3f3b09abf69c810517a\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:50:21 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:50:21 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"18cf730dbb710965c69881be5145974a3ef795ca2138ea8f8eb8a2003a1737415a551bb729485ad27c1b594f88114bf7e4f17bca0453945b3122a65204a125dd79adf22bf3d7957f4fa87d5f0f0d119db74d576b603fdef6e278f9483c9884f7f927b5beb63cf3f3b09abf69c810517a"}}}
+[34mI20171102-15:50:23.080(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-15:50:23.094(-7)? [39morgId 12557 onboard state legacy
+[34mI20171102-15:50:23.095(-7)? [39morgId 12557 onboard state legacy
+[34mI20171102-15:50:23.122(-7)? [39mMarketing Terms of Service MD5 marketing 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:50:23.131(-7)? [39mSupport Terms of Service MD5 support 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:50:23.142(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:50:23.194(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-15:50:23.195(-7)? [39m  orgId: 12557,
+[34mI20171102-15:50:23.195(-7)? [39m  timezone: '-07.00',
+[34mI20171102-15:50:23.195(-7)? [39m  region: null,
+[34mI20171102-15:50:23.196(-7)? [39m  filters: 
+[34mI20171102-15:50:23.197(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-15:50:23.197(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-15:50:23.198(-7)? [39m        streamingType: [Object],
+[34mI20171102-15:50:23.198(-7)? [39m        userType: [Object] } },
+[34mI20171102-15:50:23.199(-7)? [39m  start: '2017-09-28',
+[34mI20171102-15:50:23.199(-7)? [39m  end: '2017-10-25',
+[34mI20171102-15:50:23.199(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-15:50:23.201(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.203(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-15:50:23.204(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-15:50:23.204(-7)? [39m  headers: 
+[34mI20171102-15:50:23.204(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-15:50:23.205(-7)? [39m     'content-length': '79',
+[34mI20171102-15:50:23.205(-7)? [39m     connection: 'close' },
+[34mI20171102-15:50:23.205(-7)? [39m  data: 
+[34mI20171102-15:50:23.206(-7)? [39m   { troubleTickets: false,
+[34mI20171102-15:50:23.206(-7)? [39m     provisioning: false,
+[34mI20171102-15:50:23.207(-7)? [39m     gigacenters: true,
+[34mI20171102-15:50:23.207(-7)? [39m     billing: true } }
+[34mI20171102-15:50:23.232(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.248(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.250(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.301(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.306(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.311(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-15:50:23.315(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:50:23.326(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-15:50:23.329(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-15:50:23.337(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-15:50:23.343(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-15:50:23.359(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:50:23.374(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-15:50:23.378(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-15:50:23.388(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-15:50:23.404(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:23.413(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:50:23.421(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-15:50:23.424(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-15:50:23.425(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-15:50:23.794(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-15:50:24.331(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:50:24.332(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:50:24.332(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:50:24.621(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"1b4034e81b485601ef64f5adbaca694b60cad1b054cc6d601c97494e9e3fb60b1ddd567c2515e2d3e75f9e9d2c1fa2ac115d5651b9a334dbe44e6554ab50c5407d1e15e287d7fe9b1eca352a7605c48f0e2e5c5b7c0543ec0d7db983699d918a6c91632e38d3051b2cb5caa56f537456\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:50:22 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:50:22 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"1b4034e81b485601ef64f5adbaca694b60cad1b054cc6d601c97494e9e3fb60b1ddd567c2515e2d3e75f9e9d2c1fa2ac115d5651b9a334dbe44e6554ab50c5407d1e15e287d7fe9b1eca352a7605c48f0e2e5c5b7c0543ec0d7db983699d918a6c91632e38d3051b2cb5caa56f537456"}}}
+[34mI20171102-15:50:26.364(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:50:28.381(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Streaming%20Media&page=1&size=10'
+[34mI20171102-15:50:28.714(-7)? [39mapp info by group { statusCode: 200,
+[34mI20171102-15:50:28.714(-7)? [39m  content: '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]',
+[34mI20171102-15:50:28.715(-7)? [39m  headers: { 'content-length': '289', connection: 'close' },
+[34mI20171102-15:50:28.715(-7)? [39m  data: null }
+[34mI20171102-15:50:31.662(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Streaming%20Media&filename=Usage%20by%20Application%20Type%20Streaming%20Media&NaNusage-by-application-type-streaming-media'
+[34mI20171102-15:50:31.991(-7)? [39m{ statusCode: 200,
+[34mI20171102-15:50:31.992(-7)? [39m  content: '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]',
+[34mI20171102-15:50:31.992(-7)? [39m  headers: { 'content-length': '289', connection: 'close' },
+[34mI20171102-15:50:31.992(-7)? [39m  data: null }
+[34mI20171102-15:50:32.011(-7)? [39m{ '0': 'download',
+[34mI20171102-15:50:32.011(-7)? [39m  '1': '',
+[34mI20171102-15:50:32.012(-7)? [39m  '2': '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]' }
+[34mW20171102-15:50:32.012(-7)? (STDERR) [39m[35m{ '0': 'No file',[39m
+[34mW20171102-15:50:32.013(-7)? (STDERR) [39m[35m  '1': '/marketing-cloud/data/export-files/[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]' }[39m
+[34mI20171102-15:50:35.567(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:50:35.568(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:50:35.569(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:50:35.856(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"49555fae2c23d6062da511ca6c55eb7686c1577863b445c512c73cffe77a5485d410a46d8cb8cae431550debe184bba665935b94de607aa04346071241d7b7f6f30f2e1362e3f0dd5c2c9e2ea4ce22b49894da7fb4fba22cd33252d3a3d86d784d6f71297c3dc57f8f37b021619200c2\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:50:34 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:50:34 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"49555fae2c23d6062da511ca6c55eb7686c1577863b445c512c73cffe77a5485d410a46d8cb8cae431550debe184bba665935b94de607aa04346071241d7b7f6f30f2e1362e3f0dd5c2c9e2ea4ce22b49894da7fb4fba22cd33252d3a3d86d784d6f71297c3dc57f8f37b021619200c2"}}}
+[34mI20171102-15:50:35.857(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-15:50:35.886(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:50:35.934(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-15:50:35.935(-7)? [39m  orgId: 12557,
+[34mI20171102-15:50:35.935(-7)? [39m  timezone: '-07.00',
+[34mI20171102-15:50:35.936(-7)? [39m  region: null,
+[34mI20171102-15:50:35.936(-7)? [39m  filters: 
+[34mI20171102-15:50:35.936(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-15:50:35.937(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-15:50:35.937(-7)? [39m        streamingType: [Object],
+[34mI20171102-15:50:35.938(-7)? [39m        userType: [Object] } },
+[34mI20171102-15:50:35.938(-7)? [39m  start: '2017-09-28',
+[34mI20171102-15:50:35.938(-7)? [39m  end: '2017-10-25',
+[34mI20171102-15:50:35.939(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-15:50:35.948(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:35.949(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-15:50:35.949(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-15:50:35.950(-7)? [39m  headers: 
+[34mI20171102-15:50:35.950(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-15:50:35.950(-7)? [39m     'content-length': '79',
+[34mI20171102-15:50:35.951(-7)? [39m     connection: 'close' },
+[34mI20171102-15:50:35.951(-7)? [39m  data: 
+[34mI20171102-15:50:35.951(-7)? [39m   { troubleTickets: false,
+[34mI20171102-15:50:35.952(-7)? [39m     provisioning: false,
+[34mI20171102-15:50:35.952(-7)? [39m     gigacenters: true,
+[34mI20171102-15:50:35.952(-7)? [39m     billing: true } }
+[34mI20171102-15:50:35.969(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:35.976(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:35.978(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:36.036(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:36.040(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:36.044(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:50:36.045(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-15:50:36.054(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-15:50:36.057(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-15:50:36.074(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-15:50:36.088(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-15:50:36.102(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:50:36.115(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-15:50:36.118(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-15:50:36.127(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-15:50:36.143(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:50:36.152(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:50:36.160(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-15:50:36.164(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-15:50:36.164(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-15:50:36.592(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-15:50:36.879(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:50:36.880(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:50:36.880(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:50:37.155(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"d13638c9587fa5effbb17f83caebb572e3c3f25fb01f3416b20407239288ad773f20b8bb2e2621767f768888f2882e0e5bec0307da490187b7046df78915807281d5ae3e1bfb28cce529e830fe03ae1910473f5019e3fa028f43477cf591e82f0fec1287c70d7cd95fc80c81f51e008c\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:50:35 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:50:35 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"d13638c9587fa5effbb17f83caebb572e3c3f25fb01f3416b20407239288ad773f20b8bb2e2621767f768888f2882e0e5bec0307da490187b7046df78915807281d5ae3e1bfb28cce529e830fe03ae1910473f5019e3fa028f43477cf591e82f0fec1287c70d7cd95fc80c81f51e008c"}}}
+[34mI20171102-15:52:35.001(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/query' }
+[34mI20171102-15:52:35.292(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/organizations/12557' }
+[34mI20171102-15:52:35.570(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/entitlements?org-id=12557' }
+[34mI20171102-15:52:35.881(-7)? [39m{ '0': '---------verifyCommandCenterUser ------------verify success ------' }
+[34mI20171102-15:52:35.882(-7)? [39m{ '0': '-----hasValidEntitlement-----', '1': 118 }
+[34mI20171102-15:52:35.884(-7)? [39m{ '0': '-----hasValidPermission-----', '1': 116, '2': 3 }
+[34mI20171102-15:52:35.884(-7)? [39m{ '0': '---- to login ... ------' }
+[34mI20171102-15:52:35.907(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:52:35.908(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:52:35.911(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:52:36.180(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"2f3876e9348fcd8664c5a84c3714d521368f1459d59dc3a441f252a7d0b1caeefca5f2a854712957b85e884ead3a38d42f06fd8f151eef9cac5e9f260ad24448bfef23e69cb92f09cfeefdca62a620489c78ecd2ce702b47b2492df3266bb9a7cbaf7ddf951d5e7e071ea16e8b9382d9\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:52:34 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:52:33 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"2f3876e9348fcd8664c5a84c3714d521368f1459d59dc3a441f252a7d0b1caeefca5f2a854712957b85e884ead3a38d42f06fd8f151eef9cac5e9f260ad24448bfef23e69cb92f09cfeefdca62a620489c78ecd2ce702b47b2492df3266bb9a7cbaf7ddf951d5e7e071ea16e8b9382d9"}}}
+[34mI20171102-15:52:36.181(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-15:52:36.189(-7)? [39morgId 12557 onboard state legacy
+[34mI20171102-15:52:36.191(-7)? [39morgId 12557 onboard state legacy
+[34mI20171102-15:52:36.218(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:52:36.282(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-15:52:36.283(-7)? [39m  orgId: 12557,
+[34mI20171102-15:52:36.284(-7)? [39m  timezone: '-07.00',
+[34mI20171102-15:52:36.284(-7)? [39m  region: null,
+[34mI20171102-15:52:36.285(-7)? [39m  filters: 
+[34mI20171102-15:52:36.285(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-15:52:36.285(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-15:52:36.286(-7)? [39m        streamingType: [Object],
+[34mI20171102-15:52:36.289(-7)? [39m        userType: [Object] } },
+[34mI20171102-15:52:36.290(-7)? [39m  start: '2017-09-28',
+[34mI20171102-15:52:36.290(-7)? [39m  end: '2017-10-25',
+[34mI20171102-15:52:36.292(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-15:52:36.294(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.297(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-15:52:36.298(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-15:52:36.298(-7)? [39m  headers: 
+[34mI20171102-15:52:36.298(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-15:52:36.299(-7)? [39m     'content-length': '79',
+[34mI20171102-15:52:36.299(-7)? [39m     connection: 'close' },
+[34mI20171102-15:52:36.300(-7)? [39m  data: 
+[34mI20171102-15:52:36.301(-7)? [39m   { troubleTickets: false,
+[34mI20171102-15:52:36.301(-7)? [39m     provisioning: false,
+[34mI20171102-15:52:36.303(-7)? [39m     gigacenters: true,
+[34mI20171102-15:52:36.303(-7)? [39m     billing: true } }
+[34mI20171102-15:52:36.332(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.338(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.340(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.442(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.448(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.451(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-15:52:36.464(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:52:36.473(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-15:52:36.476(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-15:52:36.485(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-15:52:36.492(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-15:52:36.502(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:52:36.515(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-15:52:36.518(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-15:52:36.522(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-15:52:36.533(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:52:36.546(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:52:36.553(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-15:52:36.557(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-15:52:36.558(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-15:52:37.075(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-15:52:37.562(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:52:37.563(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:52:37.566(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:52:37.838(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"e48af6a949586a3e189c08ca3de44ec89c2eb566e457da34992753bffe29d5f49b56b5c7dbc1a483b5ab3dc5cae1250ad421b7fc719a2ad59b1d3a8c84229288927e97d762086c1be7968ed4cda6851be97001993765211582f22df880657ebc2b3af5c7cf13d788c2310b32369b415ee03e772a98a3bf921307949b8b2ce7f7\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:52:36 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:52:36 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"e48af6a949586a3e189c08ca3de44ec89c2eb566e457da34992753bffe29d5f49b56b5c7dbc1a483b5ab3dc5cae1250ad421b7fc719a2ad59b1d3a8c84229288927e97d762086c1be7968ed4cda6851be97001993765211582f22df880657ebc2b3af5c7cf13d788c2310b32369b415ee03e772a98a3bf921307949b8b2ce7f7"}}}
+[34mI20171102-15:53:12.968(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:53:14.421(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Streaming%20Media&page=1&size=10'
+[34mI20171102-15:53:14.750(-7)? [39mapp info by group { statusCode: 200,
+[34mI20171102-15:53:14.751(-7)? [39m  content: '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]',
+[34mI20171102-15:53:14.751(-7)? [39m  headers: { 'content-length': '289', connection: 'close' },
+[34mI20171102-15:53:14.752(-7)? [39m  data: null }
+[34mI20171102-15:53:17.689(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Streaming%20Media&filename=Usage%20by%20Application%20Type%20Streaming%20Media&NaNusage-by-application-type-streaming-media'
+[34mI20171102-15:53:18.021(-7)? [39m{ statusCode: 200,
+[34mI20171102-15:53:18.022(-7)? [39m  content: '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]',
+[34mI20171102-15:53:18.022(-7)? [39m  headers: { 'content-length': '289', connection: 'close' },
+[34mI20171102-15:53:18.023(-7)? [39m  data: null }
+[34mI20171102-15:53:18.036(-7)? [39m{ '0': 'download',
+[34mI20171102-15:53:18.036(-7)? [39m  '1': '',
+[34mI20171102-15:53:18.037(-7)? [39m  '2': '[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]' }
+[34mW20171102-15:53:18.038(-7)? (STDERR) [39m[35m{ '0': 'No file',[39m
+[34mW20171102-15:53:18.038(-7)? (STDERR) [39m[35m  '1': '/marketing-cloud/data/export-files/[{"Other":[18727.7769,0.2986,7035,4.9894]},{"Google":[8447.0934,0.1347,1094,0.7759]},{"Netflix":[7879.1923,0.1256,322,0.2284]},{"Pandora":[191.9485,0.0031,147,0.1043]},{"Spotify":[41.7161,7.0E-4,90,0.0638]},{"Hulu":[2.7528,0.0,68,0.0482]},{"Streaming Media (Vudu)":[0.3139,0.0,14,0.0099]}]' }[39m
+[34mI20171102-15:59:54.268(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:59:54.269(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:59:54.272(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:59:54.563(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"0aadc61aad687f18a64d0465a2dabfe6b293fb928807cf60670f3dd4a9a5d8fb5ecfa53e58e26c9dbfc07c319a803f48c88e7e2028c08648d64dd20f0c326c4b336741d22b1bb890165f476f47c3ab815e71cb0875cbae64e20fe6a2ec32a99542b7c26969c20bc9b14e6e1119db70e6\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:59:52 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:59:52 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"0aadc61aad687f18a64d0465a2dabfe6b293fb928807cf60670f3dd4a9a5d8fb5ecfa53e58e26c9dbfc07c319a803f48c88e7e2028c08648d64dd20f0c326c4b336741d22b1bb890165f476f47c3ab815e71cb0875cbae64e20fe6a2ec32a99542b7c26969c20bc9b14e6e1119db70e6"}}}
+[34mI20171102-15:59:54.564(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-15:59:54.590(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-15:59:54.649(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-15:59:54.649(-7)? [39m  orgId: 12557,
+[34mI20171102-15:59:54.650(-7)? [39m  timezone: '-07.00',
+[34mI20171102-15:59:54.650(-7)? [39m  region: null,
+[34mI20171102-15:59:54.650(-7)? [39m  filters: 
+[34mI20171102-15:59:54.651(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-15:59:54.651(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-15:59:54.652(-7)? [39m        streamingType: [Object],
+[34mI20171102-15:59:54.652(-7)? [39m        userType: [Object] } },
+[34mI20171102-15:59:54.653(-7)? [39m  start: '2017-09-28',
+[34mI20171102-15:59:54.653(-7)? [39m  end: '2017-10-25',
+[34mI20171102-15:59:54.653(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-15:59:54.655(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.660(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-15:59:54.661(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-15:59:54.661(-7)? [39m  headers: 
+[34mI20171102-15:59:54.662(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-15:59:54.662(-7)? [39m     'content-length': '79',
+[34mI20171102-15:59:54.663(-7)? [39m     connection: 'close' },
+[34mI20171102-15:59:54.663(-7)? [39m  data: 
+[34mI20171102-15:59:54.663(-7)? [39m   { troubleTickets: false,
+[34mI20171102-15:59:54.664(-7)? [39m     provisioning: false,
+[34mI20171102-15:59:54.664(-7)? [39m     gigacenters: true,
+[34mI20171102-15:59:54.665(-7)? [39m     billing: true } }
+[34mI20171102-15:59:54.689(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.695(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.696(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.737(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.743(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.749(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-15:59:54.752(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-15:59:54.756(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-15:59:54.760(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-15:59:54.764(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-15:59:54.772(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-15:59:54.777(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:59:54.784(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-15:59:54.789(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-15:59:54.799(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-15:59:54.807(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:54.819(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-15:59:54.825(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-15:59:54.829(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-15:59:54.829(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-15:59:55.489(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-15:59:55.937(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-15:59:55.938(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-15:59:55.939(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-15:59:56.218(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"b30bd420f55980fa1cc2aa46fd4b632104c36517008432b5cac7f58ea46d84c6efb45cf74f6b173ca1c68170ebb71ff97b6306c30e180d16fb3d7da48736aa348aaa07c047bce83e13ac4ef0548ba757ad2be8a5cc652ef8c7556d64e6dfd787a165e2acc97fad75204c1d5c059d2582\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 22:59:54 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 22:59:54 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"b30bd420f55980fa1cc2aa46fd4b632104c36517008432b5cac7f58ea46d84c6efb45cf74f6b173ca1c68170ebb71ff97b6306c30e180d16fb3d7da48736aa348aaa07c047bce83e13ac4ef0548ba757ad2be8a5cc652ef8c7556d64e6dfd787a165e2acc97fad75204c1d5c059d2582"}}}
+[34mI20171102-15:59:59.140(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:59.147(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-15:59:59.150(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:00:07.147(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Lightning&tech=ISE&page=1&size=10'
+[34mI20171102-16:00:12.003(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Fast&tech=ISE&page=1&size=10'
+[34mI20171102-16:00:15.353(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Fast&tech=DSL&page=1&size=10'
+[34mI20171102-16:00:47.779(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Fast&tech=DSL&filename=Users%20by%20Service%20Tier%20%26%20Technology%20Fast%20%2F%20DSL&file=true&filename=users-by-service-tier-technology-fast-dsl'
+[34mI20171102-16:00:48.937(-7)? [39m{ '0': 'download',
+[34mI20171102-16:00:48.937(-7)? [39m  '1': '/marketing-cloud/data/export-files/',
+[34mI20171102-16:00:48.938(-7)? [39m  '2': 'users-by-service-tier-technology-fast-dsl-12557-2017-10-05-2017-11-01-296486183.csv' }
+[34mW20171102-16:00:48.939(-7)? (STDERR) [39m[35m{ '0': 'No file',[39m
+[34mW20171102-16:00:48.939(-7)? (STDERR) [39m[35m  '1': '/marketing-cloud/data/export-files/users-by-service-tier-technology-fast-dsl-12557-2017-10-05-2017-11-01-296486183.csv' }[39m
+[34mI20171102-16:00:51.455(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:00:51.456(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:00:51.458(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:00:51.830(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"d9184581f149720f45e7006b8d62f92d028e0f116195aad55971d25015bf57770e9862580f7938f63c80c4d45d4cb77168ea2a4b257f9d34f0ae38a79218d7fb5f67c0e40150f9a3deded6c0ede4056e8a6ece29498e3133403b5f9516807ceadb6f859253e3a36749ab742d317a85f9\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:00:50 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:50 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"d9184581f149720f45e7006b8d62f92d028e0f116195aad55971d25015bf57770e9862580f7938f63c80c4d45d4cb77168ea2a4b257f9d34f0ae38a79218d7fb5f67c0e40150f9a3deded6c0ede4056e8a6ece29498e3133403b5f9516807ceadb6f859253e3a36749ab742d317a85f9"}}}
+[34mI20171102-16:00:51.831(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-16:00:51.858(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-16:00:51.909(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-16:00:51.909(-7)? [39m  orgId: 12557,
+[34mI20171102-16:00:51.910(-7)? [39m  timezone: '-07.00',
+[34mI20171102-16:00:51.910(-7)? [39m  region: null,
+[34mI20171102-16:00:51.911(-7)? [39m  filters: 
+[34mI20171102-16:00:51.911(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-16:00:51.911(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-16:00:51.912(-7)? [39m        streamingType: [Object],
+[34mI20171102-16:00:51.912(-7)? [39m        userType: [Object] } },
+[34mI20171102-16:00:51.913(-7)? [39m  start: '2017-09-28',
+[34mI20171102-16:00:51.913(-7)? [39m  end: '2017-10-25',
+[34mI20171102-16:00:51.916(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-16:00:51.919(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.919(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-16:00:51.920(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-16:00:51.921(-7)? [39m  headers: 
+[34mI20171102-16:00:51.921(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-16:00:51.921(-7)? [39m     'content-length': '79',
+[34mI20171102-16:00:51.922(-7)? [39m     connection: 'close' },
+[34mI20171102-16:00:51.922(-7)? [39m  data: 
+[34mI20171102-16:00:51.923(-7)? [39m   { troubleTickets: false,
+[34mI20171102-16:00:51.923(-7)? [39m     provisioning: false,
+[34mI20171102-16:00:51.924(-7)? [39m     gigacenters: true,
+[34mI20171102-16:00:51.924(-7)? [39m     billing: true } }
+[34mI20171102-16:00:51.945(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.953(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.954(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.989(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.995(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:51.999(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:00:52.007(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-16:00:52.020(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-16:00:52.025(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-16:00:52.032(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-16:00:52.040(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-16:00:52.058(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:00:52.116(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-16:00:52.121(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-16:00:52.124(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-16:00:52.140(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:52.152(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:00:52.172(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-16:00:52.176(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-16:00:52.176(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+For compatibility, the PACKAGE_DIRS environment variable is deprecated and will
+be removed in a future Meteor release.
+Developers should now use METEOR_PACKAGE_DIRS and Windows projects should now
+use a semi-colon (;) to separate paths.
+[34mI20171102-16:00:52.959(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+=> Client modified -- refreshing
+[34mI20171102-16:00:57.674(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:00:57.676(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:00:57.676(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:00:57.944(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"48af2578649e103cf712e9a8c4a11c7ae506a62974affdbe6cd7aff22e83cb0a2a204c8e2567211d3c19ebbfedf1cf76ad8003a5b7536857c7a0ea9d9283cc5a66262f01bb5a2b59f33963ea38a47aea0ff20b2e726ead5e81be184a983a6245bb9ed214a6241412840a4fe3fafe3879\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:00:56 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:56 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"48af2578649e103cf712e9a8c4a11c7ae506a62974affdbe6cd7aff22e83cb0a2a204c8e2567211d3c19ebbfedf1cf76ad8003a5b7536857c7a0ea9d9283cc5a66262f01bb5a2b59f33963ea38a47aea0ff20b2e726ead5e81be184a983a6245bb9ed214a6241412840a4fe3fafe3879"}}}
+[34mI20171102-16:00:58.315(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:00:58.315(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:00:58.316(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:00:58.586(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"f2836335dc34ef5f942be23ca62a702e069ed6a93f3fe61087c769b63302f3a852a8b52a37c801ddcfa5789bdf9f6fbc66ea801a3e8f77e4f85ce485377383588f3d7280504d89b84327aecd43533cd6b4456ff1dc97ba7982da2d7a2efd496b96b994f4af1329ee5d7e3ed1d8481710\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:00:56 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:56 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"f2836335dc34ef5f942be23ca62a702e069ed6a93f3fe61087c769b63302f3a852a8b52a37c801ddcfa5789bdf9f6fbc66ea801a3e8f77e4f85ce485377383588f3d7280504d89b84327aecd43533cd6b4456ff1dc97ba7982da2d7a2efd496b96b994f4af1329ee5d7e3ed1d8481710"}}}
+[34mI20171102-16:00:58.587(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-16:00:58.598(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:58.606(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-16:00:58.608(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:00:58.613(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:00:58.616(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-16:00:58.621(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-16:00:58.624(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-16:00:58.629(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-16:00:58.635(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:00:58.642(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-16:00:58.645(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-16:00:58.658(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-16:00:58.669(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-16:00:58.677(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:00:58.680(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-16:00:58.684(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-16:00:58.685(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-16:00:59.957(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:00:59.958(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:00:59.958(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:01:00.245(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"6dd967cf5b8f5503607210088670ea62da3325f6bcebce065fa001cef055209adbd70466e8965d685fa996d9c291f6e699dbd5244adb4462c2517b0fcf9ac6ceb9bc3b2059567516a06efbcef9b8ac2dc54ff0bc8393691690dcf0a85e2d12825341ca9944b13d48c1ccca294a1a952e\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:00:58 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:58 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"6dd967cf5b8f5503607210088670ea62da3325f6bcebce065fa001cef055209adbd70466e8965d685fa996d9c291f6e699dbd5244adb4462c2517b0fcf9ac6ceb9bc3b2059567516a06efbcef9b8ac2dc54ff0bc8393691690dcf0a85e2d12825341ca9944b13d48c1ccca294a1a952e"}}}
+[34mI20171102-16:01:01.504(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:01:01.505(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:01:01.506(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:01:01.778(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"240a3130127b4002e423bee93fa8e2fe30418dde0637c3ddaaa060ece4237e990448ffb9f845c857053f63b908771c063fd621fbb1311eb8e4ae283ad6559c8a47b87a955bec957e332de32c049e4d8402d6e0ea41fcf62379343457557c57753f74eb95dee9eefc188b582f7d174c0c\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:00:59 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:59 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"240a3130127b4002e423bee93fa8e2fe30418dde0637c3ddaaa060ece4237e990448ffb9f845c857053f63b908771c063fd621fbb1311eb8e4ae283ad6559c8a47b87a955bec957e332de32c049e4d8402d6e0ea41fcf62379343457557c57753f74eb95dee9eefc188b582f7d174c0c"}}}
+[34mI20171102-16:01:01.780(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-16:01:02.369(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:01:02.369(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:01:02.370(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:01:02.640(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"7731c48a481ddba98236b2939ba42f70e484cdaa94d89cc62ac0e3fe6519f71198a9a5bf9986370465b3d75c4c825bd1df476a57652d7f3ae9f64e37e91db50602e5f93256e23d37e7b614a890a1ca5b9a54656bc812211cfd7b0df05da28924cd34f7b4e4ae4a78939f37ffefaec7d4\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:01:00 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:00:59 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"7731c48a481ddba98236b2939ba42f70e484cdaa94d89cc62ac0e3fe6519f71198a9a5bf9986370465b3d75c4c825bd1df476a57652d7f3ae9f64e37e91db50602e5f93256e23d37e7b614a890a1ca5b9a54656bc812211cfd7b0df05da28924cd34f7b4e4ae4a78939f37ffefaec7d4"}}}
+[34mI20171102-16:01:02.652(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:01:02.654(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-16:01:02.655(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-16:01:02.662(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-16:01:02.663(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-16:01:02.665(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-16:01:02.667(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:01:02.675(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-16:01:02.675(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-16:01:02.678(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-16:01:02.679(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-16:01:02.681(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-16:01:02.682(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:02.689(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-16:01:02.695(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-16:01:02.699(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:02.703(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:01:16.186(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:16.194(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:16.199(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:01:18.776(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Turbo&tech=DSL&page=1&size=10'
+[34mI20171102-16:01:22.692(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/user-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&tier=Turbo&tech=DSL&filename=Users%20by%20Service%20Tier%20%26%20Technology%20Turbo%20%2F%20DSL&file=true&filename=users-by-service-tier-technology-turbo-dsl'
+[34mI20171102-16:01:23.885(-7)? [39m{ '0': 'download',
+[34mI20171102-16:01:23.886(-7)? [39m  '1': '/marketing-cloud/data/export-files/',
+[34mI20171102-16:01:23.886(-7)? [39m  '2': 'users-by-service-tier-technology-turbo-dsl-12557-2017-10-05-2017-11-01-939271881.csv' }
+[34mW20171102-16:01:23.887(-7)? (STDERR) [39m[35m{ '0': 'No file',[39m
+[34mW20171102-16:01:23.887(-7)? (STDERR) [39m[35m  '1': '/marketing-cloud/data/export-files/users-by-service-tier-technology-turbo-dsl-12557-2017-10-05-2017-11-01-939271881.csv' }[39m
+[34mI20171102-16:01:39.306(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:01:39.307(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:01:39.307(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:01:39.600(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"401781a0acf93f49a386642f64f0e1a99502569f2b70fe4db4f6ffa4c42c5625a27bdda90021cca977d15b271ef8ee405a6d869e551a000960c96471397273d3b475fa5c4e22602fcac60df72ac7f49edb1649107afbde84a33aed030d140c251f0de136d8be6e1a1c91ed50f27f878e\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:01:37 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:01:37 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"401781a0acf93f49a386642f64f0e1a99502569f2b70fe4db4f6ffa4c42c5625a27bdda90021cca977d15b271ef8ee405a6d869e551a000960c96471397273d3b475fa5c4e22602fcac60df72ac7f49edb1649107afbde84a33aed030d140c251f0de136d8be6e1a1c91ed50f27f878e"}}}
+[34mI20171102-16:01:39.601(-7)? [39m{ '0': 'get jasper token: [object Object]' }
+[34mI20171102-16:01:39.628(-7)? [39mChecking terms of service 43767568 12557 9IL1eOw3hLG0cW5MAatMiw== 9IL1eOw3hLG0cW5MAatMiw==
+[34mI20171102-16:01:39.675(-7)? [39morgId: 12557 orgPreference: { _id: '89fXzwcG3Fx2JmQZC',
+[34mI20171102-16:01:39.676(-7)? [39m  orgId: 12557,
+[34mI20171102-16:01:39.676(-7)? [39m  timezone: '-07.00',
+[34mI20171102-16:01:39.677(-7)? [39m  region: null,
+[34mI20171102-16:01:39.677(-7)? [39m  filters: 
+[34mI20171102-16:01:39.677(-7)? [39m   { 'marketing/target-segmentation/target-user-counts|upsellTargets': 
+[34mI20171102-16:01:39.678(-7)? [39m      { serviceTier: [Object],
+[34mI20171102-16:01:39.678(-7)? [39m        streamingType: [Object],
+[34mI20171102-16:01:39.678(-7)? [39m        userType: [Object] } },
+[34mI20171102-16:01:39.679(-7)? [39m  start: '2017-09-28',
+[34mI20171102-16:01:39.680(-7)? [39m  end: '2017-10-25',
+[34mI20171102-16:01:39.680(-7)? [39m  onboardState: 'legacy' }
+[34mI20171102-16:01:39.682(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/configuration?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.683(-7)? [39mgetUserPreferences 12557 calix@arvig.com { statusCode: 200,
+[34mI20171102-16:01:39.683(-7)? [39m  content: '{"troubleTickets":false,"provisioning":false,"gigacenters":true,"billing":true}',
+[34mI20171102-16:01:39.683(-7)? [39m  headers: 
+[34mI20171102-16:01:39.684(-7)? [39m   { 'content-type': 'application/json; charset=UTF-8',
+[34mI20171102-16:01:39.685(-7)? [39m     'content-length': '79',
+[34mI20171102-16:01:39.685(-7)? [39m     connection: 'close' },
+[34mI20171102-16:01:39.685(-7)? [39m  data: 
+[34mI20171102-16:01:39.686(-7)? [39m   { troubleTickets: false,
+[34mI20171102-16:01:39.686(-7)? [39m     provisioning: false,
+[34mI20171102-16:01:39.686(-7)? [39m     gigacenters: true,
+[34mI20171102-16:01:39.687(-7)? [39m     billing: true } }
+[34mI20171102-16:01:39.717(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/cloud/regions?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.724(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/user-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.726(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-active-subscribers?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.774(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/filter-options?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.780(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.784(-7)? [39m[{"name":"CM1","data":[1,0,0,0,0]},{"name":"DSL","data":[0,996,126,218,0]},{"name":"ET1","data":[0,0,0,0,0]},{"name":"FTH","data":[327,250,22,255,8]},{"name":"ISE","data":[1,0,0,0,0]}]
+[34mI20171102-16:01:39.788(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-16:01:39.795(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=streaming&'
+[34mI20171102-16:01:39.798(-7)? [39m[{"name":"Streaming","data":[268,869,111,355,8]},{"name":"Non-streaming","data":[61,377,37,118,0]}]
+[34mI20171102-16:01:39.807(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=10'
+[34mI20171102-16:01:39.819(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-bandwidth-consumed?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&categories=5-15-35-75-150-300'
+[34mI20171102-16:01:39.838(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/total-and-streaming-usage-trend?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:01:39.843(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=gaming&'
+[34mI20171102-16:01:39.847(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/top-gaming-applications?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=5'
+[34mI20171102-16:01:39.849(-7)? [39m[{"name":"Gaming","data":[81,240,34,102,5]},{"name":"Non-gaming","data":[248,1006,114,371,3]}]
+[34mI20171102-16:01:39.856(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/social-channel-list?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&'
+[34mI20171102-16:01:39.864(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/subscriber-trends-by-application-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&month=6'
+[34mI20171102-16:01:39.872(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&'
+[34mI20171102-16:01:39.875(-7)? [39merror http://vmlnx-cloud-dev:8080/marketing/target-segmentation/service-tier-counts-by-user-type?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&type=vpn&
+[34mW20171102-16:01:39.876(-7)? (STDERR) [39m[35m{ '0': '{"response":{"statusCode":403,"content":"Invalid user type, should be from streaming/gaming/highNumDevices","headers":{"content-length":"65","connection":"close"},"data":null}}' }[39m
+[34mI20171102-16:01:40.540(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-heatmap?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&social-channel-name=Facebook&interval=2'
+[34mI20171102-16:01:41.030(-7)? [39mgetJasperToken is using global userName variable which is volatile and has race condition!
+[34mI20171102-16:01:41.031(-7)? [39mgetJasperToken is using global password variable which is volatile and has race condition!
+[34mI20171102-16:01:41.032(-7)? [39m{ '0': 'https://preview.calix.com:8443/user-2.26.0/rest/users/jasper-token?username=calix@arvig.com&role-filter=CMDCTR_.*' }
+[34mI20171102-16:01:41.307(-7)? [39m{"statusCode":200,"content":"{\"server\":\"https://report.compass-calix.com/jasperserver-pro\",\"folders\":{},\"auth\":{\"preAuth\":true,\"tokenName\":\"pp\",\"token\":\"25b4fe5bc462639d1b39a6ac4b9456308009b710a8098e12b25eba7445fd8d1fcf493a7c13ded7b7df243861db6befe40cba243d7fb03d047b3b11f9eff37c2c73988ecb338538746128c277e3cdaf85a99691625dfa7534f11f790c1ec26793f7efd9b3406b1ac8992c6ab8ce6ab600850483a5ebfb110db75cc5a283a2c78f\"}}","headers":{"server":"Apache-Coyote/1.1","set-cookie":["rememberMe=deleteMe; Path=/user-2.26.0; Max-Age=0; Expires=Wed, 01-Nov-2017 23:01:39 GMT"],"content-type":"application/json","date":"Thu, 02 Nov 2017 23:01:39 GMT","connection":"close"},"data":{"server":"https://report.compass-calix.com/jasperserver-pro","folders":{},"auth":{"preAuth":true,"tokenName":"pp","token":"25b4fe5bc462639d1b39a6ac4b9456308009b710a8098e12b25eba7445fd8d1fcf493a7c13ded7b7df243861db6befe40cba243d7fb03d047b3b11f9eff37c2c73988ecb338538746128c277e3cdaf85a99691625dfa7534f11f790c1ec26793f7efd9b3406b1ac8992c6ab8ce6ab600850483a5ebfb110db75cc5a283a2c78f"}}}
+[34mI20171102-16:01:43.266(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/application-group-usage?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&limit=4&others=true'
+[34mI20171102-16:01:53.731(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Apple&page=1&size=10'
+[34mI20171102-16:01:54.060(-7)? [39mapp info by group { statusCode: 200,
+[34mI20171102-16:01:54.060(-7)? [39m  content: '[{"Apple iCloud":[5136.7659,0.0819,720,0.5106]},{"Other":[0.0029,0.0,5,0.0035]}]',
+[34mI20171102-16:01:54.060(-7)? [39m  headers: { 'content-length': '80', connection: 'close' },
+[34mI20171102-16:01:54.061(-7)? [39m  data: null }
+[34mI20171102-16:01:56.003(-7)? [39mcurl 'http://vmlnx-cloud-dev:8080/marketing/insights/app-info-by-group?org-id=12557&start=2017-10-05&end=2017-11-01&timezone=-07.00&group=Apple&filename=Usage%20by%20Application%20Type%20Apple&NaNusage-by-application-type-apple'
+[34mI20171102-16:01:56.335(-7)? [39m{ statusCode: 200,
+[34mI20171102-16:01:56.335(-7)? [39m  content: '[{"Apple iCloud":[5136.7659,0.0819,720,0.5106]},{"Other":[0.0029,0.0,5,0.0035]}]',
+[34mI20171102-16:01:56.336(-7)? [39m  headers: { 'content-length': '80', connection: 'close' },
+[34mI20171102-16:01:56.336(-7)? [39m  data: null }
+[34mI20171102-16:01:56.348(-7)? [39m{ '0': 'download',
+[34mI20171102-16:01:56.348(-7)? [39m  '1': '',
+[34mI20171102-16:01:56.349(-7)? [39m  '2': '[{"Apple iCloud":[5136.7659,0.0819,720,0.5106]},{"Other":[0.0029,0.0,5,0.0035]}]' }
+[34mW20171102-16:01:56.350(-7)? (STDERR) [39m[35m{ '0': 'No file',[39m
+[34mW20171102-16:01:56.350(-7)? (STDERR) [39m[35m  '1': '/marketing-cloud/data/export-files/[{"Apple iCloud":[5136.7659,0.0819,720,0.5106]},{"Other":[0.0029,0.0,5,0.0035]}]' }[39m
