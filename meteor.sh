@@ -4,7 +4,7 @@
 export METEOR_HOME=/usr/local/bin/meteor
 
 # This is the directory where the Meteor repos are:
-export CMDCTR_HOME=/home/aqian/duoduoMeteor/duoduo
+export CMDCTR_HOME=/Users/AngelQian/myproject/duoduo
 
 export MONGO_URL=mongodb://localhost:27017/duoduo
 echo $MONGO_URL

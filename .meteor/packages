@@ -19,7 +19,6 @@ shell-server@0.2.4            # Server-side component of the `meteor shell` comm
 
 twbs:bootstrap
 session
-insecure
 jquery
 iron:router
 sacha:spin
