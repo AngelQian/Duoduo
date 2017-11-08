@@ -31,10 +31,10 @@ Template.postEdit.events({
         Meteor.call('postUpdate', postProperties, function(error, result){
             if (error) {
                 // display the error to the user
-                throwError(error.reason);
+                return Errors.throw(error.reason);
             }
             if(!result.postChange){
-                throwError('This link has already been existed.');
+                Errors.throw('This link has already been existed.');
             }
         });
         Router.go('postPage', {_id: currentPostId});
