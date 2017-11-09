@@ -16,14 +16,13 @@ Package.onUse(function (api) {
     //api.mainModule('errors.js');
 
     api.use(['minimongo', 'mongo-livedata', 'templating'], 'client');
-    api.addFiles(['errors.js', 'errors_list.html', 'errors_list.js'], 'client');
+    api.addFiles(['errors.js', 'error_list.html', 'error_list.js'], 'client');
     if (api.export)
         api.export('Errors');
 });
 
-//Package.onTest(function (api) {
-//    api.use('ecmascript');
-//    api.use('tinytest');
-//    api.use('angelqian2:errors');
-//    api.mainModule('errors-tests.js');
-//});
+Package.onTest(function (api) {
+    api.use('angelqian2:errors', 'client');
+    api.use(['templating', 'tinytest', 'test-helpers'], 'client');
+    api.addFiles('errors_tests.js', 'client');
+});
