@@ -6,3 +6,7 @@ Template.postPage.helpers({
         return Comments.find({postId: this._id});
     }
 });
+
+Template.postPage.onRendered(function(){
+    console.log('---postpage, this = ', this.data);
+});
